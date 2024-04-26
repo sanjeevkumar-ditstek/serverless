@@ -1,0 +1,49 @@
+{
+	"resource": "/v1/login",
+	"path": "/v1/login",
+	"rawPath": "/v1/login",
+	"httpMethod": "POST",
+	"headers": null,
+	"queryStringParameters": {},
+	"pathParameters": {},
+	"stageVariables": null,
+	"requestContext": {
+		"path": "",
+		"accountId": "",
+		"resourceId": "",
+		"stage": "staging",
+		"requestId": "test-invoke-request",
+		"authorizer": {
+			"lambda": {
+				"username": ""
+			}
+		},
+		"identity": {
+			"cognitoIdentityPoolId": null,
+			"accountId": "",
+			"cognitoIdentityId": null,
+			"caller": "",
+			"apiKey": "",
+			"sourceIp": "",
+			"accessKey": "",
+			"cognitoAuthenticationType": null,
+			"cognitoAuthenticationProvider": null,
+			"userArn": "",
+			"userAgent": "",
+			"user": ""
+		},
+		"resourcePath": "",
+		"httpMethod": "GET",
+		"apiId": ""
+	},
+	"body": {
+		"email": "test@example.com",
+		"password": "Test@123"
+	},
+	"isBase64Encoded": false
+}
+
+
+
+
+
